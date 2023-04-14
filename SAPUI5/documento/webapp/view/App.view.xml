@@ -1,0 +1,11 @@
+<mvc:View   controllerName="fmc.documento.controller.App"
+            xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <Button id="_IDGenButton1" text="{i18n>showHelloButtonText}" press=".onShowHello"></Button>
+        <Input id="_IDGenInput1" 
+                value="{/recipient/name}"
+                description="Hello {/recipient/name}" 
+                valueLiveUpdate="true"
+                width="60%">
+        </Input>
+  
+</mvc:View>
